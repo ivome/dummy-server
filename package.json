@@ -1,0 +1,14 @@
+{
+  "name": "dummy-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/ivome/dummy-server.git",
+  "author": "Ivo Meißner <info@overtronic.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "NODE_ENV=production node index.js"
+  },
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
